@@ -47,7 +47,7 @@
 
 \sbox{\universitylogo}{\parbox{\textwidth}{
     \begin{tabular}{l}
-     \includegraphics[scale=0.55]{/Users/kjhealy/Documents/letterhead/logos/sociologydept.pdf}
+     \includegraphics[scale=0.55]{/Users/timothyelder/Documents/letterhead/logos/sociologydept.pdf}
    \end{tabular}}}
 		
 \sbox{\tsheader}{\parbox[b]{\textwidth}{\usebox{\universitylogo}\raisebox{0cm}}}
