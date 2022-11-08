@@ -3,9 +3,9 @@
 %%
 %% Usage: \usepackage{org-preamble-pdflatex} in your document
 %% preamble. \usepackage[minion]{org-preamble-pdflatex}
-%% activates the MinionPro package instead of Times New Roman. The
+%% activates the Minion Pro package instead of Times New Roman. The
 %% actual Minion Pro font files must be installed first, in accordance
-%% with the instructions in the MinionPro package.
+%% with the instructions in the Minion Pro package.
 
 %% \usepackage[minted]{org-preamble-xelatex} activates the minted
 %% package for code highlighting. Minted requires that pygments be
@@ -16,7 +16,7 @@
 %%
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{org-preamble-pdflatex}[2011/02/21 v0.01 Bundling of Preamble items for Org to pdfLaTeX export (including MinionPro)]
+\ProvidesPackage{org-preamble-pdflatex}[2011/02/21 v0.01 Bundling of Preamble items for Org to pdfLaTeX export (including Minion Pro)]
 
 \RequirePackage{ifthen}
 \newboolean{@minion}
@@ -74,11 +74,11 @@
  
 
 %%% If \RequirePackage[minion]{org-preamble-pdflatex} is set,
-%%% MinionPro and microtype setup (requires full installation of MinionPro font)
-%%% If MinionPro is not specified, use Times instead.
-%%% See the MinionPro.sty manual for details on the MinionPro and tabfigures options.
+%%% Minion Pro and microtype setup (requires full installation of Minion Pro font)
+%%% If Minion Pro is not specified, use Times instead.
+%%% See the Minion Pro.sty manual for details on the Minion Pro and tabfigures options.
 \ifthenelse{\boolean{@minion}}{
-  \RequirePackage[fullfamily,opticals,footnotefigures]{MinionPro}
+  \RequirePackage[fullfamily,opticals,footnotefigures]{Minion Pro}
   \RequirePackage[scaled=0.7]{beramono}
   \RequirePackage{microtype}
   \RequirePackage[toc,eqno,enum]{tabfigures} %% use tabular figures in tables, toc, equations
