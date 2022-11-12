@@ -47,7 +47,7 @@
 
 \sbox{\universitylogo}{\parbox{\textwidth}{
     \begin{tabular}{l}
-     \includegraphics[scale=0.55]{/Users/timothyelder/Documents/letterhead/logos/sociologydept.pdf}
+     \includegraphics[scale=0.55]{/Users/timothyelder/Documents/UChicago_Graphic_Identity/University_Seal/RGB_PNG/university.seal.rgb.light.gray.png}
    \end{tabular}}}
 		
 \sbox{\tsheader}{\parbox[b]{\textwidth}{\usebox{\universitylogo}\raisebox{0cm}}}
