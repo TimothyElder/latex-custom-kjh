@@ -1,10 +1,8 @@
-[latex-custom-kjh](http://kjhealy.github.com/latex-custom-kjh)
+These LaTeX class and style files are forked from [Kieran Healy](https://github.com/kjhealy/latex-custom-kjh) and many remain as is from his repository with some exceptions.
 
-Kieran Healy, Duke University
+Keywords: LaTeX, memoir, listings, custom
 
-Keywords:		LaTeX, memoir, listings, custom
-
-# Summary #
+# Summary
 
 Some simple configuration files I use to typeset papers, letters,
 course syllabi, etc. At present, includes the following:
